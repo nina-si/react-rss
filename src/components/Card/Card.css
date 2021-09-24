@@ -1,0 +1,36 @@
+.card {
+  margin: 1rem;
+  width: 300px;
+  min-height: 300px;
+  border: 2px solid rgb(9, 130, 167);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: rgb(9, 130, 167);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.card p {
+  margin: 0;
+  padding: 1rem;
+}
+
+.dangerous {
+  color: red;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.ready {
+  color: green;
+  text-transform: uppercase;
+  font-weight: 700;
+}
