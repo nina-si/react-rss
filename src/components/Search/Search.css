@@ -1,0 +1,12 @@
+form {
+  padding-top: 2rem;
+  padding-bottom: 2 rem;
+}
+
+.search-input {
+  min-width: 300px;
+}
+
+.search-btn {
+  cursor: pointer;
+}
