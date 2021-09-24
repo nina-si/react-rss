@@ -10,26 +10,7 @@ import './App.css';
 const App = () => {
   const [isFormEditing, setIsFormEditing] = useState(false);
   const [criminals, setCriminals] = useState<Array<ICriminalData>>([]);
-  // const [filteredData, setFilteredData] = useState<Array<ICardData>>([...data])
-  // let temporary: {
-  //   id: number
-  //   name: string
-  //   capital: string
-  //   language: string
-  //   currency: string
-  // }[] = []
-  // const filterData = (text: string) => {
-  //   for (let i = 0; i < data.length; i++) {
-  //     if (data[i].name.toLowerCase().indexOf(text) > -1) {
-  //       temporary.push(data[i]);
-  //     }
-  //   }
-
-  //   temporary.length > 0
-  //     ? setFilteredData([...temporary])
-  //     : setFilteredData([...data])
-  // }
-
+  
   const handleNewCriminal = (e: any) => {
     e.preventDefault();
     setIsFormEditing(true);
