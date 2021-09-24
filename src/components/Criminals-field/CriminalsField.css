@@ -1,0 +1,14 @@
+.cards {
+  max-width: 90vw;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.announce {
+  color: rgb(9, 130, 167);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+}

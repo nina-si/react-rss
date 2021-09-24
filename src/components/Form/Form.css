@@ -1,0 +1,27 @@
+.input-form {
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 3px solid rgb(9, 130, 167);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.block {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.error-msg {
+    color: red;
+    font-size: 0.8rem;
+}
